@@ -73,27 +73,9 @@ body {
 }
 
 #header {
-  text-align: center;
-  padding: 30px;
-  border-bottom: 1px solid #777;
-  font-family: "Times New Roman", Times, serif;
-  animation: changeBg 10s linear infinite;
-  background-color: rgb(180, 58, 155);
-}
-
-#header h1 {
-  padding: 10px;
-  font-size: 50px;
-}
-
-#social {
   display: flex;
-  justify-content: center;
-}
-
-#social img {
-  width: 30px;
-  margin: 10px;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .content {
@@ -185,28 +167,4 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
-  height: 150px;
-  background-image: url(../images/scott-webb-UjupleczBOY-unsplash.jpg);
-}
-
-footer h3 {
-  padding: 25px;
-  font-weight: bold;
-  color: rgb(0, 20, 57);
-  font-size: 35px;
-}
-
-footer .f-nav {
-  padding: 15px;
-}
-
-footer .f-nav a {
-  background-color: rgb(0, 20, 57);
-  color: white;
-  padding: 10px;
-  text-align: center;
-  border-radius: 20px;
-  text-decoration: none;
-  font-size: 20px;
 }
